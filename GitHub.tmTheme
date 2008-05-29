@@ -249,6 +249,17 @@
 				<string>#990073</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>String embedded source</string>
+			<key>scope</key>
+			<string>string.quoted source</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>26786979-843B-4FE2-BCB6-4FCEC6F8FB58</string>
