@@ -128,7 +128,10 @@
 			<key>scope</key>
 			<string>entity.name.function</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
