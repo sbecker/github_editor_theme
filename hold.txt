@@ -1,0 +1,38 @@
+text source
+text.html.ruby source
+
+
+<%=
+text.html.ruby
+source.ruby.rails.embedded.html
+punctuation.section.embedded.ruby
+
+link_to
+text.html.ruby
+source.ruby.rails.embedded.html
+
+
+#{}
+*text.html.ruby
+*source.ruby.rails.embedded.html
+string.quoted.double.ruby
+source.ruby.embedded.source
+*punctuation.section.embedded.ruby
+
+source.ruby.embedded.source punctuation.section.embedded.ruby
+
+
+text.html.ruby source.ruby.rails.embedded.html string.quoted.double.ruby
+
+
+embedded ruby
+source.ruby.embedded.source punctuation.section.embedded.ruby
+207,16,64
+
+erb tag
+punctuation.section.embedded.ruby
+153,153,153
+
+String Embedded Source
+source.ruby.rails.embedded.html
+0,0,0

@@ -223,7 +223,6 @@
 				<string>#000000</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>array brackets</string>
@@ -250,8 +249,6 @@
 				<string>#000000</string>
 			</dict>
 		</dict>
-
-
 		<dict>
 			<key>name</key>
 			<string>() brackets</string>
@@ -287,8 +284,6 @@
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
-				<key>foreground</key>
-				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -432,9 +427,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>embedded ruby</string>
+			<string>erb tags</string>
 			<key>scope</key>
-			<string>punctuation.section.embedded</string>
+			<string>punctuation.section.embedded.ruby</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -445,14 +440,23 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>ruby string interpolation</string>
+			<key>scope</key>
+			<string>source.ruby.embedded.source punctuation.section.embedded.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CF1040</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>css brackets</string>
 			<key>scope</key>
 			<string>punctuation.section.property-list.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
 				<string></string>
 			</dict>
 		</dict>
@@ -465,8 +469,6 @@
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
-				<key>foreground</key>
-				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -593,10 +595,10 @@
 			<string>meta.diff.header.from-file</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>background</key>
 				<string>#FFDDDD</string>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#000000</string>
 			</dict>
@@ -608,10 +610,10 @@
 			<string>meta.diff.header.to-file</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>background</key>
 				<string>#DDFFDD</string>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#000000</string>
 			</dict>
@@ -623,10 +625,10 @@
 			<string>markup.inserted.diff</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>background</key>
 				<string>#DDFFDD</string>
+				<key>fontStyle</key>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -636,15 +638,15 @@
 			<string>markup.deleted.diff</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>background</key>
 				<string>#FFDDDD</string>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#000000</string>
 			</dict>
 		</dict>
-</array>
+	</array>
 	<key>uuid</key>
 	<string>26786979-843B-4FE2-BCB6-4FCEC6F8FB58</string>
 </dict>
