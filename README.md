@@ -28,7 +28,7 @@ But there is more to optimize:
  * literals like \n not highlighted
  * italics don't work
 
-### Changelog
+## Changelog
 
  **2011-12-4**
 
