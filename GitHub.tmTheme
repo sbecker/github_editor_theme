@@ -47,6 +47,58 @@
 				<string>#999988</string>
 			</dict>
 		</dict>
+        <dict>
+            <key>name</key>
+            <string>Docblock</string>
+            <key>scope</key>
+            <string>comment.block</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#DD1144</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Docblock tag</string>
+            <key>scope</key>
+            <string>keyword.other.phpdoc</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#DD1144</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Core function</string>
+            <key>scope</key>
+            <string>support.function</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#0086B3</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Core function construct</string>
+            <key>scope</key>
+            <string>support.function.construct</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>foreground</key>
+                <string>#000000</string>
+            </dict>
+        </dict>
 		<dict>
 			<key>name</key>
 			<string>Keyword</string>
@@ -262,6 +314,19 @@
 				<string>#000000</string>
 			</dict>
 		</dict>
+        <dict>
+            <key>name</key>
+            <string>Method call</string>
+            <key>scope</key>
+            <string>meta.function-call</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#108888</string>
+            </dict>
+        </dict>
 		<dict>
 			<key>name</key>
 			<string>hash brackets</string>
