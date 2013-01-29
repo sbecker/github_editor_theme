@@ -2,7 +2,7 @@
 
 This is a GitHub theme for TextMate, Sublime Text and Vim.
 
-## Using with TextMate 1
+## TextMate 1
 
 To install it:
 
