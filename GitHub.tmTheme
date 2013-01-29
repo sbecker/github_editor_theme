@@ -32,6 +32,8 @@
 			<dict>
 				<key>background</key>
 				<string>#F8F8FF</string>
+				<key>fontStyle</key>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -180,6 +182,8 @@
 			<string>string</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#EB104512</string>
 				<key>foreground</key>
 				<string>#DD1144</string>
 			</dict>
@@ -644,6 +648,52 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function Parameters</string>
+			<key>scope</key>
+			<string>variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library object</string>
+			<key>scope</key>
+			<string>support.function, support.variable, support.constant, support.class, support.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#6666FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function Meta Call Arguments</string>
+			<key>scope</key>
+			<string>meta.function-call.arguments</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function Call</string>
+			<key>scope</key>
+			<string>meta.function-call</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
 			</dict>
 		</dict>
 	</array>
