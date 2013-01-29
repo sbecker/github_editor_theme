@@ -4,19 +4,17 @@ This is a GitHub theme for TextMate, Sublime Text and Vim.
 
 ## Using with TextMate 1
 
-The basic colors are defined, but I'm sure it can be improved.
+To install it:
 
-To use, copy it to ~/Library/Application\ Support/TextMate/Themes/
-
-Or simply run:
-
-`$ cd ~/Library/Application\ Support/TextMate/Themes && curl -O https://raw.github.com/sbecker/github_textmate_theme/master/GitHub.tmTheme`
+`$ cd ~/Library/Application\ Support/TextMate/Themes && curl -O https://raw.github.com/sbecker/github_editor_theme/master/GitHub.tmTheme`
 
 ## Vim
 
-To use it, copy `github.vim` to `~/.vim/colors/github.vim`.
+To install it:
 
-And activate it in vim with the command: `:colorscheme github` or make it persistent in your `.vimrc`.
+`$ cd ~/.vim/colors/ && curl -O https://raw.github.com/sbecker/github_editor_theme/master/github.vim`
+
+To activate it in vim, run the command `:colorscheme github` or make it persistent in your `.vimrc`.
 
 ### Info
 
