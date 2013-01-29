@@ -86,19 +86,6 @@
                 <string>#0086B3</string>
             </dict>
         </dict>
-        <dict>
-            <key>name</key>
-            <string>Core function construct</string>
-            <key>scope</key>
-            <string>support.function.construct</string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string>bold</string>
-                <key>foreground</key>
-                <string>#000000</string>
-            </dict>
-        </dict>
 		<dict>
 			<key>name</key>
 			<string>Keyword</string>
@@ -140,7 +127,7 @@
 			<key>name</key>
 			<string>Function (definition)</string>
 			<key>scope</key>
-			<string>entity.name.function, keyword.other.name-of-parameter.objc</string>
+			<string>entity.name.function, keyword.other.name-of-parameter.objc, support.type.exception.python</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -325,6 +312,19 @@
                 <string></string>
                 <key>foreground</key>
                 <string>#108888</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Method call</string>
+            <key>scope</key>
+            <string>meta.function-call.python</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#000000</string>
             </dict>
         </dict>
 		<dict>
